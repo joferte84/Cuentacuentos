@@ -158,7 +158,6 @@ def elegir_prompt(tema, num_personajes):
     prompt_modificado = f"{prompt_seleccionado} Esta historia debe incluir {num_personajes} personajes principales."
     return prompt_modificado
 
-
 def generar_historia(prompt, max_length=1000):
     openai.api_key = 'tu_clave_api_aquí'
     try:
