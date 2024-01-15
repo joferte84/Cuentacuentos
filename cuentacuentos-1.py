@@ -160,7 +160,7 @@ def elegir_prompt(tema, num_personajes):
 
 
 def generar_historia(prompt, max_length=1000):
-    openai.api_key = ''
+    openai.api_key = 'tu_clave_api_aquí'
     try:
         response = openai.Completion.create(
             engine="text-davinci-003",
