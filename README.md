@@ -30,13 +30,6 @@ Cuentacuentos es una aplicación web que utiliza la API de OpenAI para generar h
 
     Reemplaza `tu_clave_api_aquí` con tu clave API real de OpenAI.
 
-## Uso
-Para iniciar la aplicación, ejecuta:
-
-  `python cuentacuentos-1.py`
-
-Navega a `http://localhost:5000` en tu navegador para acceder a la aplicación.
-
 ## Configuración del Entorno Virtual
 
 Se recomienda utilizar un entorno virtual para ejecutar este proyecto. Puedes configurar uno utilizando venv.
@@ -58,5 +51,11 @@ En Unix o MacOS:
 
 `pip install -r requirements.txt`
 
-Y a jugar con la web.
+## Uso
+Para iniciar la aplicación, ejecuta:
 
+  - `python cuentacuentos-1.py`
+
+Navega a `http://localhost:5000` en tu navegador para acceder a la aplicación.
+
+Selecciona un tema, un número de personajes y después clickear en `Generar Historia`.
