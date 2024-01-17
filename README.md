@@ -18,14 +18,14 @@ Cuentacuentos es una aplicación web que utiliza la API de OpenAI para generar h
 Clona el repositorio
 
 ```py
-   git clone https://github.com/joferte84/Cuentacuentos
+git clone https://github.com/joferte84/Cuentacuentos
 ```
 
 Configura tus claves API de OpenAI en un archivo `.env`:
 
 Primero, obtén tu clave API de OpenAI registrándote en su [plataforma](https://openai.com/api/). Una vez que tengas tu clave, crea un archivo `.env` en el directorio raíz del proyecto y modifica la siguiente línea en el script principal:
 ```py
-   openai.api_key = 'tu_clave_api_aquí'
+openai.api_key = 'tu_clave_api_aquí'
 ```
 
 Reemplaza `tu_clave_api_aquí` con tu clave API real de OpenAI.
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 Para iniciar la aplicación, en tu terminal ejecuta:
 
 ```py
-  python cuentacuentos-1.py
+python cuentacuentos-1.py
 ```
 
 Navega a `http://localhost:5000` en tu navegador para acceder a la aplicación.
