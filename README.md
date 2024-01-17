@@ -15,46 +15,55 @@ Cuentacuentos es una aplicación web que utiliza la API de OpenAI para generar h
 
 ## Instalación
 
-1. Clona el repositorio
+Clona el repositorio
 
-     `git clone https://github.com/joferte84/Cuentacuentos`
+```py
+   git clone https://github.com/joferte84/Cuentacuentos
+```
 
-2. Instala las dependencias:
+Configura tus claves API de OpenAI en un archivo `.env`:
 
-      `pip install -r requirements.txt`
+Primero, obtén tu clave API de OpenAI registrándote en su [plataforma](https://openai.com/api/). Una vez que tengas tu clave, crea un archivo `.env` en el directorio raíz del proyecto y modifica la siguiente línea en el script principal:
+```py
+   openai.api_key = 'tu_clave_api_aquí'
+```
 
-3. Configura tus claves API de OpenAI en un archivo `.env`:
-
-      Primero, obtén tu clave API de OpenAI registrándote en su [plataforma](https://openai.com/api/). Una vez que tengas tu clave, crea un archivo `.env` en el directorio raíz del proyecto y modifica la siguiente línea en el script principal:
-      `openai.api_key = 'tu_clave_api_aquí'`
-
-    Reemplaza `tu_clave_api_aquí` con tu clave API real de OpenAI.
+Reemplaza `tu_clave_api_aquí` con tu clave API real de OpenAI.
 
 ## Configuración del Entorno Virtual
 
 Se recomienda utilizar un entorno virtual para ejecutar este proyecto. Puedes configurar uno utilizando venv.
 
 Navega al directorio de tu proyecto y ejecuta:
-`python -m venv "nombre_de_tu_entorno"`
+```py
+python -m venv "nombre_de_tu_entorno"
+```
 
 ## Activa el entorno virtual
 
 En windows:
-
-`.\venv\Scripts\activate`
+```py
+.\venv\Scripts\activate
+```
 
 En Unix o MacOS:
 
-`source venv/bin/activate`
+```py
+source venv/bin/activate
+```
 
 ## Una vez activado el entorno virtual, instala las dependencias:
 
-`pip install -r requirements.txt`
+```py
+pip install -r requirements.txt
+```
 
 ## Uso
-Para iniciar la aplicación, ejecuta:
+Para iniciar la aplicación, en tu terminal ejecuta:
 
-  - `python cuentacuentos-1.py`
+```py
+  python cuentacuentos-1.py
+```
 
 Navega a `http://localhost:5000` en tu navegador para acceder a la aplicación.
 
